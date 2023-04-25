@@ -1,0 +1,110 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    background-color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Column styles */
+  .column-left {
+    flex-basis: 40%;
+  }
+  
+  .column-right {
+    flex-basis: 55%;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  /* Link styles */
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1abc9c;
+  }
+  
+  /* List styles */
+  ul {
+    list-style-type: square;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Section styles */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .column-left, .column-right {
+      flex-basis: 100%;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+  }
+  
